@@ -1,5 +1,5 @@
 <template>
-    <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
+    <Disclosure as="nav" class="bg-main" v-slot="{ open }">
       <div class="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-16">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -17,17 +17,13 @@
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
-                <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
+                <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-main-darker text-white' : 'text-gray-300 hover:text-hover', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
               </div>
             </div>
           </div>
           <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <button type="button" class="relative p-1 text-gray-400 bg-gray-800 rounded-full hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-              <span class="absolute -inset-1.5" />
-              <span class="sr-only">View notifications</span>
-              <BellIcon class="w-6 h-6" aria-hidden="true" />
-            </button>
-  
+            <Cart />
+            
             <!-- Profile dropdown -->
             <Menu as="div" class="relative ml-3">
               <div>
@@ -65,7 +61,8 @@
   
   <script setup>
   import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-  import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+  import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
+  import Cart from '@/components/products/Cart.vue'
   
   const navigation = [
     { name: 'Home', href: '#', current: true },
