@@ -19,8 +19,8 @@
         <div class="items-center justify-between py-4 border-b border-gray-200">
           <ProductSizes />
         </div>
-        <button type="submit" class="flex items-center justify-center w-full px-8 py-3 mt-10 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add to Cart</button>
-        <ProductDescription />
+        <button type="submit" class="flex items-center justify-center w-full px-8 py-3 mt-10 text-base font-medium text-white bg-main border border-transparent rounded-md hover:bg-main-darker focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" @click="addToCart" >Add to Cart</button>
+        {{ cart }}<ProductDescription />
         <div>
           <div class="py-4 border-t border-b border-gray-200 mt-7">
             <div @click="toggleShowData" data-menu class="flex items-center justify-between cursor-pointer">
@@ -69,6 +69,7 @@ import ProductColors from './ProductColors.vue';
 import ProductSizes from './ProductSizes.vue';
 import ProductDescription from './ProductDescription.vue';
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/vue/20/solid'
+import { addToCart } from '@/composables/useCart';
 
 const product = {
   name: 'Fashion Shirt',

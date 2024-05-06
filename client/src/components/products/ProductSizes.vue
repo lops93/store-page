@@ -4,7 +4,7 @@
       <h3 class="text-sm font-medium text-gray-900">Size</h3>
       <a
         href="#"
-        class="text-sm font-medium text-indigo-600 hover:text-indigo-500"
+        class="text-sm font-medium text-main-darker hover:text-main"
         >Size guide</a
       >
     </div>
