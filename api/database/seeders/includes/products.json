@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Fashion Shirt",
+        "description": "The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: 'Black'. Need to add an extra pop of color to your outfit? Our white tee has you covered.",
+        "price": 192,
+        "code": "8BN321AF2IF0NYA",
+        "details": {
+            "Length": "13.2 inches",
+            "Height": "10 inches",
+            "Depth": "5.1 inches",
+            "Composition": "100% calf leather, inside: 100% lamb leather"
+        },
+        "active": 1
+    },
+    {
+        "name": "Elegant Dress",
+        "description": "This elegant dress is perfect for any formal occasion. Made from premium silk, it offers a luxurious feel and an elegant look.",
+        "price": 250,
+        "code": "9JKL4567MNO8PQR",
+        "details": {
+            "Length": "42 inches",
+            "Height": "N/A",
+            "Depth": "N/A",
+            "Composition": "100% silk"
+        },
+        "active": 1
+    },
+    {
+        "name": "Casual Sneakers",
+        "description": "Comfortable and stylish, these casual sneakers are perfect for everyday wear. Available in various sizes and colors.",
+        "price": 80,
+        "code": "1XYZ9876ABCD3EFG",
+        "details": {
+            "Size": "10 US",
+            "Color": "White",
+            "Material": "Canvas"
+        },
+        "active": 1
+    },
+    {
+        "name": "Leather Jacket",
+        "description": "This leather jacket is a must-have for any wardrobe. It offers a classic look with a modern twist.",
+        "price": 320,
+        "code": "2GHJ5678KLMN9OPQ",
+        "details": {
+            "Length": "25 inches",
+            "Height": "N/A",
+            "Depth": "N/A",
+            "Composition": "100% leather"
+        },
+        "active": 1
+    },
+    {
+        "name": "Summer Hat",
+        "description": "Stay cool and stylish this summer with our range of summer hats. Perfect for beach outings and casual wear.",
+        "price": 35,
+        "code": "3RST6789UVWXY0AB",
+        "details": {
+            "Brim Width": "4 inches",
+            "Height": "5 inches",
+            "Material": "Straw"
+        },
+        "active": 1
+    },
+    {
+        "name": "Classic Watch",
+        "description": "A timeless classic, this watch combines elegance and functionality. Suitable for any occasion.",
+        "price": 150,
+        "code": "4CDE1234FGHI5JKL",
+        "details": {
+            "Diameter": "40mm",
+            "Strap Material": "Leather",
+            "Water Resistance": "50m"
+        },
+        "active": 1
+    },
+    {
+        "name": "Designer Handbag",
+        "description": "Make a statement with this designer handbag. Crafted from premium materials, it is both stylish and durable.",
+        "price": 500,
+        "code": "5MNO5678PQRS9TUV",
+        "details": {
+            "Length": "12 inches",
+            "Height": "9 inches",
+            "Depth": "6 inches",
+            "Composition": "100% calf leather, inside: 100% lamb leather"
+        },
+        "active": 1
+    },
+    {
+        "name": "Sports Jacket",
+        "description": "This sports jacket offers comfort and flexibility, making it perfect for any athletic activity.",
+        "price": 120,
+        "code": "6GHI6789JKLM0NOP",
+        "details": {
+            "Length": "28 inches",
+            "Height": "N/A",
+            "Depth": "N/A",
+            "Composition": "Polyester blend"
+        },
+        "active": 1
+    },
+    {
+        "name": "Yoga Pants",
+        "description": "These yoga pants provide the perfect balance of comfort and flexibility, ideal for your daily yoga routine.",
+        "price": 60,
+        "code": "7XYZ1234ABCD5EFG",
+        "details": {
+            "Length": "Full length",
+            "Waist": "Mid-rise",
+            "Material": "Spandex blend"
+        },
+        "active": 1
+    },
+    {
+        "name": "Running Shoes",
+        "description": "Enhance your running experience with these lightweight and durable running shoes.",
+        "price": 100,
+        "code": "8RST6789UVWXY0AB",
+        "details": {
+            "Size": "10 US",
+            "Weight": "200g",
+            "Material": "Mesh and rubber"
+        },
+        "active": 1
+    }
+]
