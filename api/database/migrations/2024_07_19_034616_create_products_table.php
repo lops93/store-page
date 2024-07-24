@@ -18,6 +18,7 @@ return new class extends Migration
             $table->float('price');
             $table->string('code', 45);
             $table->json('details')->nullable();
+            $table->boolean('active')->default(1);
             $table->timestamps();
         });
     }
